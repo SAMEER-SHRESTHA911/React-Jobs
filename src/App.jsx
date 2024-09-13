@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import HomeCards from './components/HomeCards';
 import JobListings from './components/JobListings';
+import ViewAll from './components/ViewAll';
 import './index.css';
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <HomeCards/>
       <JobListings/>
+      <ViewAll/>
     </>
   )
 }
